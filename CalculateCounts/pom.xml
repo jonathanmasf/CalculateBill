@@ -9,7 +9,8 @@
 	<name>example</name>
 	<description>Project for calculate who pays what of the bill.</description>
 	<properties>
-		<java.version>19</java.version>
+	    <maven.compiler.target>19</maven.compiler.target>
+	    <maven.compiler.source>19</maven.compiler.source>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
